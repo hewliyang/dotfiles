@@ -48,63 +48,58 @@
     "workbench.activityBar.location": "hidden",
     "workbench.editor.pinnedTabSizing": "compact",
     "workbench.settings.applyToAllProfiles": [
-        "workbench.colorCustomizations"
+      "workbench.colorCustomizations"
     ],
-    // ----- Appearance Customizations -----
-    "workbench.colorTheme": "GitHub Dark Dimmed",
     "workbench.colorCustomizations": {
-        "[Solarized Light]": {
-            "editorGroup.border": "#d3cfc4",
-            "editorGroupHeader.tabsBorder": "#d3cfc4",
-            "editorGroupHeader.border": "#d3cfc4",
-            "tab.border": "#d3cfc4",
-            "sideBar.border": "#d3cfc4",
-            "sideBarSectionHeader.border": "#d3cfc4",
-            "sideBar.background": "#fdf6e3",
-            "statusBar.border": "#d3cfc4",
-            "statusBar.background": "#eee8d5",
-            "statusBar.noFolderBackground": "#eee8d5",
-            "editor.background": "#fdf6e3"
-        }
+      "[Solarized Light]": {
+        "editorGroup.border": "#d3cfc4",
+        "editorGroupHeader.tabsBorder": "#d3cfc4",
+        "editorGroupHeader.border": "#d3cfc4",
+        "tab.border": "#d3cfc4",
+        "sideBar.border": "#d3cfc4",
+        "sideBarSectionHeader.border": "#d3cfc4",
+        "sideBar.background": "#fdf6e3",
+        "statusBar.border": "#d3cfc4",
+        "statusBar.background": "#eee8d5",
+        "statusBar.noFolderBackground": "#eee8d5",
+        "editor.background": "#fdf6e3"
+      }
     },
-    // -----  APC Settings -----
-    "apc.font.family": "MonoLisa",
-    "apc.electron": {
-        "frame": false,
-        "titleBarStyle": "hiddenInset",
-        "transparent": true,
-        "visualEffectState": "followWindow",
-        "vibrancy": "ultra-dark",
-        "trafficLightPosition": {
-            "y": 16
-        }
+    // ----- Custom UI Style Settings ----
+    // Font Family
+    "custom-ui-style.font.sansSerif": "MonoLisa",
+    "custom-ui-style.font.monospace": "MonoLisa",
+    // Electron Window Configuration
+    "custom-ui-style.electron": {
+      "frame": false,
     },
-    "apc.stylesheet": {
-        ".quick-input-header": {
-            "padding": "0 !important"
-        },
-        ".quick-input-header > .quick-input-and-message .monaco-inputbox": {
-            "border-radius": "10px 10px 0 0 !important"
-        },
-        ".quick-input-header > .quick-input-and-message > .quick-input-filter > .quick-input-box input": {
-            "padding": "8px 10px !important"
-        },
-        ".quick-input-list > .monaco-list > .monaco-scrollable-element": {
-            "padding": "2px !important"
-        },
-        ".quick-input-widget": {
-            "position": "absolute !important",
-            "top": "200px !important",
-            "left": "50%",
-            "border-radius": "10px",
-            "border": "1px solid var(--vscode-textSeparator-foreground) !important",
-            "box-shadow": "0 0 60px 0 rgba(0,0,0,0.2) !important"
-        }
+    // Custom CSS Styles
+    "custom-ui-style.stylesheet": {
+      ".quick-input-header": {
+        "padding": "0 !important"
+      },
+      ".quick-input-header > .quick-input-and-message .monaco-inputbox": {
+        "border-radius": "10px 10px 0 0 !important"
+      },
+      ".quick-input-header > .quick-input-and-message > .quick-input-filter > .quick-input-box input": {
+        "padding": "8px 10px !important"
+      },
+      ".quick-input-list > .monaco-list > .monaco-scrollable-element": {
+        "padding": "2px !important"
+      },
+      ".quick-input-widget": {
+        "position": "absolute !important",
+        "top": "200px !important",
+        "left": "50%",
+        "border-radius": "10px",
+        "border": "1px solid var(--vscode-textSeparator-foreground) !important",
+        "box-shadow": "0 0 60px 0 rgba(0,0,0,0.2) !important"
+      }
     },
     // -----  Notebook Settings -----
     "notebook.insertToolbarLocation": "notebookToolbar",
     "notebook.cellToolbarLocation": {
-        "jupyter-notebook": "hidden"
+      "jupyter-notebook": "hidden"
     },
     "notebook.output.scrolling": true,
     "notebook.consolidatedRunButton": true,
@@ -113,75 +108,75 @@
     "jupyter.askForKernelRestart": false,
     // -----  Language Specific Settings  -----
     "[yaml]": {
-        "editor.insertSpaces": true,
-        "editor.tabSize": 2,
-        "editor.autoIndent": "advanced",
-        "diffEditor.ignoreTrimWhitespace": false
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2,
+      "editor.autoIndent": "advanced",
+      "diffEditor.ignoreTrimWhitespace": false
     },
     "[yml]": {
-        "editor.insertSpaces": true,
-        "editor.tabSize": 2,
-        "editor.autoIndent": "advanced",
-        "diffEditor.ignoreTrimWhitespace": false
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2,
+      "editor.autoIndent": "advanced",
+      "diffEditor.ignoreTrimWhitespace": false
     },
     "[typst]": {
-        "editor.wordWrap": "on",
-        "editor.semanticHighlighting.enabled": true,
-        "editor.tabSize": 2,
-        "editor.inlayHints.enabled": "off",
-        "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+      "editor.wordWrap": "on",
+      "editor.semanticHighlighting.enabled": true,
+      "editor.tabSize": 2,
+      "editor.inlayHints.enabled": "off",
+      "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
     },
     "[typst-code]": {
-        "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+      "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
     },
     "[bibtex]": {
-        "editor.tabSize": 2
+      "editor.tabSize": 2
     },
     "[python]": {
-        "editor.formatOnType": true,
-        "editor.defaultFormatter": "charliermarsh.ruff",
-        "editor.tabSize": 4
+      "editor.formatOnType": true,
+      "editor.defaultFormatter": "charliermarsh.ruff",
+      "editor.tabSize": 4
     },
     "[svelte]": {
-        "editor.defaultFormatter": "svelte.svelte-vscode",
-        "editor.tabSize": 2
+      "editor.defaultFormatter": "svelte.svelte-vscode",
+      "editor.tabSize": 2
     },
     "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.tabSize": 2
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
     },
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.tabSize": 2
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
     },
     "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.tabSize": 2
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
     },
     "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.tabSize": 2
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
     },
     "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[markdown]": {
-        "files.trimTrailingWhitespace": false
+      "files.trimTrailingWhitespace": false
     },
     "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     // -----  Extensions Settings -----
     "ruff.enable": true,
     "ruff.lint.enable": false,
     "ruff.format.args": [
-        "--line-length=88"
+      "--line-length=88"
     ],
     "ruff.exclude": [
-        "*.ipynb"
+      "*.ipynb"
     ],
     "typescript.updateImportsOnFileMove.enabled": "always",
     "tinymist.formatterMode": "typstyle",
@@ -189,18 +184,21 @@
     "vsicons.dontShowNewVersionMessage": true,
     // ----- Git Settings -----
     "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
     "scm.diffDecorations": "none",
     // ----- File Settings -----
     "files.watcherExclude": {
-        "**/.svelte-kit/**": true,
-        "**/node_modules/**": true,
-        "**/build/**": true,
-        "**/.venv/**": true
+      "**/.svelte-kit/**": true,
+      "**/node_modules/**": true,
+      "**/build/**": true,
+      "**/.venv/**": true
     },
     "files.associations": {
-        "*.pcss": "css",
-        "*.yml.j2": "jinja-xml"
+      "*.pcss": "css",
+      "*.yml.j2": "jinja-xml"
     },
     // ----- Update Settings -----
-    "update.mode": "manual"
+    "update.mode": "manual",
+    "workbench.colorTheme": "Yi Dark"
 }
